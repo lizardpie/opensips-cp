@@ -1,4 +1,5 @@
-FROM php:7.2-apache
+FROM php:7.1-apache
+#FROM php:7.2-apache
 
 ADD https://raw.githubusercontent.com/mlocati/docker-php-extension-installer/master/install-php-extensions /usr/local/bin/
 
